@@ -11,6 +11,8 @@ import org.springframework.stereotype.Component;
 @SpringBootApplication
 @Log4j2
 @Component
+@EnableJpaRepositories
+
 public class WebApplication implements CommandLineRunner {
 
     @Autowired
